@@ -44,7 +44,7 @@ def parse_to_meaning_ful_text(input_phone_number, in_dict):
     me_t += "\n"
     me_t += "<b>❣️API HASH</b>👇"
     me_t += "\n<code>{}</code>".format(in_dict["App Configuration"]["api_hash"])
-        return me_t
+        
 
 
 def extract_code_imn_ges(ptb_message):
